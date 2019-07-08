@@ -406,6 +406,8 @@ def log_process(file_path_all, channel_id):
                         # front_rear_list = judge_front_rear_log(line)
                         # if front_rear_list[0] == 0 and front_rear_list[1] == 0:
                         #         continue
+                        if(frame_id in log_data_img_dict):
+                                continue
 
                         log_data_img_dict["{}".format(frame_id)] = [front_img_x, front_img_y, rear_img_x, rear_img_y]
                         log_data_phy_dict["{}".format(frame_id)] = [front_phy_x, front_phy_y, rear_phy_x, rear_phy_y]

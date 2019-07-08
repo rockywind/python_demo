@@ -180,14 +180,16 @@ if __name__ == "__main__":
         phy_img_dict = {}
         write_data_dict = {}
 
-        # src_phy_img_csv_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/20190704_rtk_100hz/img_draw_select_red_point/red_point_phy_add_offset.csv'
-        # src_rtk_csv_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/20190704_rtk_100hz/img_draw_select_red_point/rtk_phy_real_img_select.csv'
-        # save_file_name = '/home/xieyi/pic/projection_error/all_txt/rtk_check/20190704_rtk_100hz/img_draw_select_red_point/img_to_phy_and_rtk.csv'
-
         # src_phy_img_csv_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/20190705_capture_1/red_point_phy.csv'
         # src_rtk_csv_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/20190705_capture_1/out_final_utm.csv'
 
         # save_file_name = '/home/xieyi/pic/projection_error/all_txt/rtk_check/20190705_capture_1/img_to_phy_and_rtk.csv'
+
+        
+        # src_phy_img_csv_path =  '/home/xieyi/pic/projection_error/all_txt/rtk_check/20190705_capture_1/red_point_front_phy.csv'
+        # src_rtk_csv_path =  '/home/xieyi/pic/projection_error/all_txt/rtk_check/20190705_capture_1/capture_01_front_phy.csv'
+
+        # save_file_name = '/home/xieyi/pic/projection_error/all_txt/rtk_check/20190705_capture_1/img_to_phy_and_label_front.csv'
 
         
         src_phy_img_csv_path =  '/home/xieyi/pic/projection_error/all_txt/rtk_check/20190705_capture_1/red_point_front_phy.csv'

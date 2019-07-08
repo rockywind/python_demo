@@ -196,10 +196,10 @@ if __name__ == "__main__":
 
         # save_file_name = '/home/xieyi/pic/zadas_tjp_01_data/kalman_pic//capture1_kalman_all.csv'
 
-        src_phy_img_csv_path =  '/home/xieyi/pic/zadas_tjp_01_data/kalman_pic/kalman_det_phy.csv'
-        src_rtk_csv_path =  '/home/xieyi/pic/zadas_tjp_01_data/kalman_pic/kalman_label_phy.csv'
+        src_phy_img_csv_path =  '/home/xieyi/pic/zadas_tjp_01_data/kalman_pic/capture1_kalman_all.csv'
+        src_rtk_csv_path =  '/home/xieyi/pic/zadas_tjp_01_data/kalman_pic/kalman_det_phy.csv'
 
-        save_file_name = '/home/xieyi/pic/zadas_tjp_01_data/kalman_pic//capture1_det_all.csv'
+        save_file_name = '/home/xieyi/pic/zadas_tjp_01_data/kalman_pic/capture1_det_select.csv'
        
         #mkdir(save_save_path)
 
