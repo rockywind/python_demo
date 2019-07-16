@@ -76,23 +76,27 @@ def write_data_to_csv(file_name, write_data):
         
 if __name__ == "__main__":
         
-        # x_key = 'pos_FRTire_x'
-        # y_key = 'pos_FRTire_y'
-
-        x_key = 'pos_RRTire_x'
-        y_key = 'pos_RRTire_y'
+  
+        # x_key = 'pos_RRTire_x'
+        # y_key = 'pos_RRTire_y'
 
         # x_key = 'pos_FLTire_x'
         # y_key = 'pos_FLTire_y'
+        x_key = 'pos_FRTire_x'
+        y_key = 'pos_FRTire_y'
 
-        # src_img_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/img_select/'
-        # src_csv_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/out_final.csv'
-        # save_csv_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/img_select.csv'
+     
+        # src_img_path = '/media/xieyi/Elements/zwk/20190704/rtk_video_det/20190706_capture1_select_01/'
+        # src_csv_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/20190705_capture_1/out_final_utm.csv'
+        # save_csv_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/20190705_capture_1/rtk_phy_real_img_select_real.csv'
+        # #mkdir(src_csv_path)
 
-        src_img_path = '/media/xieyi/Elements/zwk/20190704/rtk_video_det/20190706_capture1_select_01/'
-        src_csv_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/20190705_capture_1/out_final_utm.csv'
-        save_csv_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/20190705_capture_1/rtk_phy_real_img_select_real.csv'
+        src_img_path = '/media/xieyi/Elements/zwk/changan_0712/red_img_cutin/'
+        src_csv_path = '/media/xieyi/Elements/zwk/changan_0712/out_final_utm_r_catin.csv'
+        save_csv_path = '/media/xieyi/Elements/zwk/changan_0712//rtk_phy_real_img_select_real.csv'
         #mkdir(src_csv_path)
+
+
 
         write_data = list()
 

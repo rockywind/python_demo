@@ -71,21 +71,21 @@ if __name__ == "__main__":
         y_key = 'pos_FRTire_y'
         #img_id = 'img_id'
 
-        # src_img_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/img_select/'
-        # src_csv_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/rtk_phy_to_cam.csv'
-        # save_save_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/img_draw/'
-
-        
         # src_img_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/0002_rtk_50hz/output/'
         # src_csv_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/rtk_phy_to_cam.csv'
         # save_save_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/img_draw/'
 
         #src_img_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/20190705_capture_1/output/'
 
-        src_img_path = '/media/xieyi/Elements/zwk/20190704/rtk_video_det/20190706_capture1_select_01/'
+        # src_img_path = '/media/xieyi/Elements/zwk/20190704/rtk_video_det/20190706_capture1_select_01/'
 
-        src_csv_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/20190705_capture_1/rtk_phy_to_cam_real.csv'
-        save_save_path = '/media/xieyi/Elements/zwk/20190704/rtk_video_det/capture_1_frontoutput/capture1_img_draw_real/'
+        # src_csv_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/20190705_capture_1/rtk_phy_to_cam_real.csv'
+        # save_save_path = '/media/xieyi/Elements/zwk/20190704/rtk_video_det/capture_1_frontoutput/capture1_img_draw_real/'
+
+        src_img_path = '/media/xieyi/Elements/zwk/changan_0712/cutin_img_select/'
+
+        src_csv_path = '/media/xieyi/Elements/zwk/changan_0712/rtk_phy_to_cam_real.csv'
+        save_save_path = '/media/xieyi/Elements/zwk/changan_0712/cutin_img_select_rtk_draw/'
 
         mkdir(save_save_path)
 

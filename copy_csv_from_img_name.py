@@ -78,11 +78,13 @@ if __name__ == "__main__":
         # src_csv_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/20190704_rtk_100hz/out_final.csv'
         # save_csv_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/20190704_rtk_100hz/img_draw_select.csv'
 
-        src_img_path = '/media/xieyi/Elements/zwk/20190704/rtk_video_det/20190606_capture1_select_01/'
-        src_csv_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/20190705_capture_1/img_to_phy_and_rtk.csv'
-        save_csv_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/20190705_capture_1/img_to_phy_and_rtk_01.csv'
+        # src_img_path = '/media/xieyi/Elements/zwk/20190704/rtk_video_det/20190606_capture1_select_01/'
+        # src_csv_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/20190705_capture_1/img_to_phy_and_rtk.csv'
+        # save_csv_path = '/home/xieyi/pic/projection_error/all_txt/rtk_check/20190705_capture_1/img_to_phy_and_rtk_01.csv'
 
-       
+        src_img_path = '/media/xieyi/Elements/zwk/changan_0712/red_img_cutin/'
+        src_csv_path = '/media/xieyi/Elements/zwk/changan_0712/real_point_front_phy_ori.csv'
+        save_csv_path = '/media/xieyi/Elements/zwk/changan_0712/real_point_front_phy_ori_select.csv'
 
         write_data = list()
 

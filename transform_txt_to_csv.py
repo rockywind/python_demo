@@ -79,17 +79,19 @@ def write_data_to_csv(file_name, write_data):
         
 if __name__ == "__main__":
         
-        #src_txt_path = '/home/xieyi/pic/projection_error/all_txt/dynamic_data_correct/0001_ori_new/'
-        #save_csv_path = '/home/xieyi/pic/projection_error/all_txt/dynamic_data_correct/0001_ori_new/new.csv'
-        src_txt_path = '/home/xieyi/pic/projection_error/all_txt/dynamic_data_label5/'
-        #save_csv_path = '/home/xieyi/pic/projection_error/all_txt/dynamic_data_label5/all_02_correct.csv'
-        save_csv_path = '/home/xieyi/pic/projection_error/all_txt/dynamic_data_label5/middle_right_correct.csv'
+ 
+        # src_txt_path = '/media/xieyi/Elements/zwk/02_fit/01/02_chessbox_correct/left_all/'
+        # save_csv_path = '/media/xieyi/Elements/zwk/02_fit/01/02_chessbox_correct/left_all/left_-1.8_left_all_correct.csv'
+
+        src_txt_path = '/media/xieyi/Elements/zwk/02_fit/01/02_chessbox_correct/right_all/'
+        save_csv_path = '/media/xieyi/Elements/zwk/02_fit/01/02_chessbox_correct/right_all/left-1.8_right_all_correct.csv'
+
         #mkdir(src_csv_path)
 
         write_data = list()
 
-        #file_suffix = "middle_02_ori_v1_correct.txt"
-        file_suffix = "middle_right_ori_v1_correct.txt"
+        #file_suffix = "left_-1.8_left_all_correct.txt"
+        file_suffix = "left-1.8_right_all_correct.txt"
         for file_name in os.listdir(src_txt_path):
 
                 if len(file_name.split(file_suffix))<=1:
